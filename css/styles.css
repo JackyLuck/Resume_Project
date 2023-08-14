@@ -1,10 +1,10 @@
-body{
+body {
   background-color: #E5E5E5;
   padding: 40px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
-//Wrapper
-.wrapper{
+
+.wrapper {
   display: flex;
   flex-direction: row-reverse;
   background-color: #ffffff;
@@ -12,23 +12,24 @@ body{
   max-width: 1200px;
   margin: 0 auto;
 }
-//Main Content
-.main-content{
+
+.main-content {
   padding: 88px;
   width: 100%;
   background-color: #FFFFFF;
 }
-h1{
-  font-family: 'Montserrat', sans-serif;
+
+h1 {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 45px;
   line-height: 55px;
   color: #000000;
 }
-//About me
-.my-proffesion{
-  font-family: 'Montserrat', sans-serif;
+
+.my-proffesion {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -37,23 +38,25 @@ h1{
   margin-bottom: 18px;
 }
 
-p{
+p {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
-li{
-  font-family: 'Montserrat', sans-serif;
+
+li {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
 }
-li::marker{
-  font-family: 'Montserrat', sans-serif;
+
+li::marker {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -61,38 +64,43 @@ li::marker{
   color: #000000;
   margin-right: 15px;
 }
-ol{
+
+ol {
   padding: 20px;
 }
-h3{
-  font-family: 'Montserrat', sans-serif;
+
+h3 {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
   color: #161D2A;
 }
-h5{
-  font-family: 'Montserrat', sans-serif;
+
+h5 {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   color: #000000;
 }
-//Aside
-.sidebar{
+
+.sidebar {
   padding: 40px 0 0 0;
   background-color: #E0EBFE;
-  width: 370px;
+  width: 400px;
 }
+
 .contact-container,
 .tech-skills-container,
-.soft-skills-container{
+.soft-skills-container {
   margin: 48px 0 0 40px;
 }
-.sidebar-title{
-  font-family: 'Montserrat', sans-serif;
+
+.sidebar-title {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -100,8 +108,9 @@ h5{
   color: #161D2A;
   margin-bottom: 8px;
 }
-.contact-links{
-  font-family: 'Montserrat', sans-serif;
+
+.contact-links {
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -109,46 +118,58 @@ h5{
   color: #161D2A;
   margin-right: 8px;
 }
-.contacts-item{
+
+.contacts-item {
   margin: 0;
 }
-.contacts-number{
+
+.contacts-number {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #161D2A;
 }
-.contacts-email{
+
+.contacts-email {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #2979FF;
 }
-.skills-list{
+
+.skills-list {
   margin: 0;
   padding: 0 0 0 16px;
 }
-.skills-list li::marker{
+
+.skills-list li::marker {
   color: #6D9BF5;
 }
-.skill-list-text{
-  color: #161D2A
+
+.skill-list-text {
+  color: #161D2A;
 }
-//Work3
-.responsibilities-list{
+
+.responsibilities-list {
   margin: 0;
   padding: 0 0 0 16px;
 }
-.subscript{
+.responsibilities-item {
+  margin-bottom: 10px;
+}
+.subscript {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
   color: #A8A8A8;
 }
-.work-link{
+
+.work-link {
   color: #6D9BF5;
   text-decoration: none;
 }
+
+/*# sourceMappingURL=styles.css.map */
